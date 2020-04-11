@@ -1,0 +1,20 @@
+.navlink {
+    font-size: $s1;
+    font-weight: bold;
+}
+
+.navbutton {
+    font-size: $s1;
+    font-weight: bold;
+    background: $color-dark-blue;
+    color: $color-white;
+    padding: $s-3 $s0;
+    border-radius: 45px;
+}
+
+@media screen and (max-width: 48em) {
+    .navlink, .navbutton {
+        font-size: $s0;
+    }
+
+  }

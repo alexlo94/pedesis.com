@@ -1,0 +1,51 @@
+.order-form {
+    font-size: $s1;
+    h3 {
+        text-decoration: underline;
+    }
+
+    input {
+        color: $color-black;
+        background: $color-white;
+        padding: 1.5ch;
+        border-radius: 3px;
+        // font-size: $s1;
+
+        &::placeholder {
+            color: lighten($color-black, $amount: 50%);
+            font-style: italic;
+        }
+    }
+
+    textarea {
+        color: $color-black;
+        background: $color-white;
+        padding: 1.5ch;
+        border-radius: 3px;
+
+        &::placeholder {
+            color: lighten($color-black, $amount: 50%);
+            font-style: italic;
+        }
+    }
+
+    input[type="radio"] {
+        padding: 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+
+        border: 2px solid $color-white;
+        transition: 0.2s all linear;
+        margin-right: 5px;
+
+        &:checked {
+            border: 6px solid $color-dark-blue;
+            transition: 0.2s all linear;
+        }
+    }
+}

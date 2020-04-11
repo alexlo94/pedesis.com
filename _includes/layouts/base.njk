@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    {% set css %}
+        {% include "assets/css/main.css" %}
+    {% endset %}
+    <style>
+        {{ css | cssmin | safe }}
+    </style>
+    {% set js %}
+        {% include "assets/js/main.js" %}
+    {% endset %}
+    <script>
+        {{ js | jsmin | safe }}
+    </script>
+    <title>{{title or renderData.title or metadata.title}}</title>
+</head>
+<body>
+    {% include "components/navbar.njk" %}
+    {{ layoutContent | safe }}
+    {% include "components/footer.njk" %}
+</body>
+</html>

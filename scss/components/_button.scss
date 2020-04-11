@@ -1,0 +1,15 @@
+.button {
+    // display: inline;
+    background: $color-dark-blue;
+    color: $color-white;
+    font-size: $s2;
+    padding: $s0 $s3;
+    
+    border-radius: 45px;
+}
+
+@media screen and (max-width: 48em) {
+    .button {
+        font-size: $s1;
+    }
+  }

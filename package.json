@@ -1,0 +1,27 @@
+{
+  "name": "pedesis.com",
+  "version": "1.0.0",
+  "description": "Site for pedesis.com using 11ty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlo94/pedesis.com.git"
+  },
+  "author": "Alexandros Lotsos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexlo94/pedesis.com/issues"
+  },
+  "homepage": "https://github.com/alexlo94/pedesis.com#readme",
+  "dependencies": {
+    "clean-css": "^4.2.3",
+    "html-minifier": "^4.0.0",
+    "uglify-es": "^3.3.9"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}

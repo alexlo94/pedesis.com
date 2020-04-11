@@ -1,0 +1,26 @@
+
+{
+    "title": "Pedesis Ltd.",
+    "social": [
+        {
+            "href": "#",
+            "iconName": "logo-linkedin"
+        },
+        {
+            "href": "#",
+            "iconName": "logo-github"
+        },
+        {
+            "href": "#",
+            "iconName": "logo-instagram"
+        },
+        {
+            "href": "#",
+            "iconName": "logo-twitter"
+        },
+        {
+            "href": "#",
+            "iconName": "mail"
+        }
+    ]
+}

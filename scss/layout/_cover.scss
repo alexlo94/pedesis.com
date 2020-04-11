@@ -1,0 +1,32 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: $s4;
+  }
+  
+  .cover > * {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cover > :first-child:not(main) {
+    margin-top: 0;
+  }
+  
+  .cover > :last-child:not(main) {
+    margin-bottom: 0;
+  }
+  
+  .cover > main {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  @media screen and (max-width: 48em) {
+    .cover {
+      padding-left: $s0;
+      padding-right: $s0;
+      min-height: 80vh;
+    }
+  }

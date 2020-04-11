@@ -1,0 +1,15 @@
+.navbar {
+    // position: fixed;
+    // width: 100%;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+
+    padding: $s-1 $s1;
+}
+
+@media screen and (max-width: 48em) {
+    .navbar {
+      padding: $s-1 $s0;
+    }
+}

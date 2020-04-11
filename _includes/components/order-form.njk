@@ -1,0 +1,23 @@
+<form class="order-form stack s3" name="order" method="POST" data-netlify="true">
+    <div class="stack s1">
+        <h3 class="text-decoration:underline">Order Items</h3>
+        {% include "components/order-items.njk" %}
+    </div>
+    <div class="switcher">
+        <div class="wrapper">
+            <div class="stack s1">
+                <h3 class="text-decoration:underline">Shipping Information</h3>
+                {% include "components/shipping-information.njk" %}
+            </div>
+            <div class="stack s1">
+                <h3 class="text-decoration:underline">Billing Information</h3>
+                {% include "components/billing-information.njk" %}
+            </div>
+        </div>
+    </div>
+    <div class="cluster">
+        <div class="wrapper">
+            <button class="button" type="submit">Submit Order</button>
+        </div>
+    </div>
+</form>
