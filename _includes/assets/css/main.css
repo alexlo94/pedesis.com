@@ -503,4 +503,8 @@ footer {
 .font-weight\:normal {
   font-weight: normal;
 }
+
+.hidden {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
